@@ -230,7 +230,80 @@
  }
 
  .social-cards {
-display: flex;
-    gap: 24px;
+     display: flex;
+     gap: 24px;
 
+ }
+
+ /* deal section */
+
+ .deal {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .deal-title {
+     color: #272727;
+     text-align: center;
+     font-size: 40px;
+     font-weight: 800;
+ }
+
+ .deal-description {
+     color: rgba(39, 39, 39, 0.60);
+     text-align: center;
+     font-family: Lato;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+ }
+
+ .input {
+     display: flex;
+     gap: 18px;
+ }
+
+ .email {
+     width: 700px;
+     height: 64px;
+     border-radius: 8px;
+ }
+
+ /* footer */
+
+ .ending {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background: #111010;
+     width: 1922px;
+     height: 449px;
+     border-radius: 8px;
+ }
+
+ .ending-title {
+     color: #E55473;
+     font-size: 40px;
+     font-weight: 800;
+
+ }
+
+ .ending-description {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     color: rgba(255, 255, 255, 0.90);
+     width: 625px;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+ }
+
+ .copyrights {
+     color: rgba(255, 255, 255, 0.40);
+     text-align: center;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
  }
