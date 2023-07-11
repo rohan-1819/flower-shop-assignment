@@ -240,6 +240,11 @@
  .deal {
      display: flex;
      flex-direction: column;
+     align-items: center;
+     background-image: url('../flower-asset/Rectangle\ 9.png');
+     width: 1440px;
+     height: 449px;
+
  }
 
  .deal-title {
@@ -252,15 +257,16 @@
  .deal-description {
      color: rgba(39, 39, 39, 0.60);
      text-align: center;
-     font-family: Lato;
      font-size: 18px;
      font-weight: 400;
-     line-height: 30px;
+
  }
 
  .input {
      display: flex;
      gap: 18px;
+     margin-top: 48px;
+
  }
 
  .email {
