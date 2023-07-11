@@ -1,0 +1,236 @@
+ * {
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ /* header part */
+
+ .banner {
+     background: rgba(229, 84, 115, 0.10);
+     display: flex;
+     justify-content: space-between;
+     gap: 90px;
+     padding: 50px 220px 0px 220px;
+ }
+
+ .banner .banner-profil {
+     width: 600px;
+     height: 800px;
+
+ }
+
+ .banner-title {
+     align-items: center;
+     color: #272727;
+     font-size: 80px;
+     font-weight: 800;
+
+ }
+
+ .bnt-primary {
+     font-size: 18px;
+     padding: 20px 45px;
+     border-radius: 10px;
+     background-color: #E55473;
+     border-style: none;
+ }
+
+
+ .banner-description {
+     font-size: 18px;
+     color: rgb(49, 47, 47);
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-weight: 600;
+
+ }
+
+
+ /* main part styles */
+
+ /* feature intro*/
+
+ section {
+     margin-top: 170px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+ }
+
+ .feature {
+     text-align: center;
+     width: 600px;
+     height: 60px;
+ }
+
+ .feature-title {
+     color: #272727;
+     font-size: 40px;
+     font-weight: 800;
+
+ }
+
+ .feature-description {
+     display: flex;
+     font-size: 18px;
+     color: rgb(49, 47, 47);
+     margin-top: 24px;
+     font-weight: 600;
+ }
+
+ /* feature cards */
+
+ .feature-card {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 24px;
+     margin-left: 240px;
+     margin-right: 240px;
+ }
+
+ .feature-card p {
+     color: #272727;
+     text-align: center;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 35px;
+     text-decoration: none;
+     margin-top: 48px;
+ }
+
+ .cards {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 50px;
+
+ }
+
+ .card1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 300px 300px 0px 0px;
+     background: rgba(167, 33, 98, 0.15);
+     padding: 100px 75px 0px 75px;
+ }
+
+ .card2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 300px 300px 0px 0px;
+     background: rgba(5, 151, 160, 0.15);
+     padding: 110px 50px 50px 50px;
+ }
+
+ .card3 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 300px 300px 0px 0px;
+     background: rgba(71, 125, 17, 0.15);
+     padding: 65px 75px 0px 75px;
+ }
+
+ /* services*/
+
+ .services-block {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 8px;
+     gap: 100px;
+     background: rgba(39, 39, 39, 0.05);
+     width: 1440px;
+     height: 320px;
+ }
+
+ .service {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .service-description {
+     color: rgba(39, 39, 39, 0.80);
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 35px;
+ }
+
+ /* offers */
+
+ .offer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: rgba(229, 84, 115, 0.10);
+     width: 1922px;
+     height: 620px;
+     gap: 180px;
+     border-radius: 8px;
+ }
+
+ .offer-ad {
+     text-align: center;
+     justify-content: center;
+     width: 600px;
+     height: 60px;
+     margin-bottom: 160px;
+ }
+
+ .offer-title {
+     color: #272727;
+     font-size: 40px;
+     font-weight: 800;
+     margin-top: 230;
+
+ }
+
+
+ .offer .offer-pic {
+     width: 320px;
+     height: 420px;
+
+ }
+
+ .offer-description {
+     display: flex;
+     font-size: 18px;
+     color: rgb(49, 47, 47);
+     margin-top: 24px;
+     margin-bottom: 32px;
+     font-weight: 600;
+ }
+
+ /* social */
+ .social {
+     text-align: center;
+     width: 600px;
+     height: 60px;
+ }
+
+ .social-title {
+     color: #272727;
+     font-size: 40px;
+     font-weight: 800;
+
+ }
+
+ .social-description {
+     display: flex;
+     font-size: 18px;
+     color: rgb(49, 47, 47);
+     margin-top: 24px;
+     margin-bottom: 48px;
+     font-weight: 600;
+ }
+
+ .social-cards {
+display: flex;
+    gap: 24px;
+
+ }
